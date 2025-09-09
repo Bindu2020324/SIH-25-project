@@ -1,5 +1,3 @@
-I want you to build a Panchakarma Management Software website using React for frontend, Supabase for backend/database, and integrate a chatbot for general queries. Please carefully include the following features:
-
 🎯 Background & Goal
 
 Panchakarma is gaining global recognition for detoxification, rejuvenation, and chronic disease management, but small and medium centers face issues like manual scheduling, inconsistent therapy quality, and poor digital patient management.
@@ -115,60 +113,3 @@ Backend: Supabase (Auth, DB, Row-Level Security, Edge Functions).
 Notifications: Integrate MSG91 for SMS/WhatsApp, FCM/OneSignal for push notifications, Supabase SMTP for emails.
 
 Chatbot: React chatbot UI + Dialogflow/OpenAI API.
-
-📌 Extra (Optional but Useful)
-
-Low-bandwidth video consultation (for rural areas).
-
-Export therapy reports in PDF.
-
-Multi-center support (if more than one clinic is using the platform).
-
-Here’s a blueprint for your Panchakarma Management Software website:
-
-Modern, healthcare-trusted UI using React and TailwindCSS, mobile-friendly and easy to navigate.
-Supabase backend with secure Auth, Row-Level Security, eKYC, consent system, and audit trails for privacy and compliance.
-Automated therapy scheduling: patients can book/modify sessions, staff manage all sessions in a calendar view, with conflict prevention.
-Pre- and post-procedure notifications via in-app, email, SMS/WhatsApp (MSG91/FCM integration).
-Role-based dashboards:
-Patients: view upcoming/past therapies, track progress with graphs, submit feedback, access center info/guidelines.
-Staff: manage all sessions, view patient records, analytics, and feedback trends.
-Real-time therapy tracking and visualization tools (progress bars, graphs).
-Integrated feedback loop after each session to refine care and alert staff if needed.
-Chatbot (Dialogflow/OpenAI or FAQ-based) for general queries about therapies, booking, guidelines, and support.
-Optional: low-bandwidth video consult, PDF export of reports, multi-center support.
-Language support: English and Hindi/local languages.
-If you’d like to adjust or add anything, let me know! Otherwise, you can proceed to click "Generate Site".
-
-Site blueprint: KarmaFlow
-
-Overview
-The Panchakarma Management Software helps users manage therapy scheduling, patient records, and communication efficiently while providing a user-friendly interface for both patients and staff.
-Key features
-
-Automated therapy scheduling Patients can book and modify therapy sessions, while staff can manage these sessions via a calendar interface.
-Pre/post-procedure notifications Users receive notifications through in-app messages, email, and SMS/WhatsApp regarding their therapy sessions.
-Secure patient management Patient data is managed securely with authentication, role-based access, and audit trails.
-Role-based dashboards Patients can view their sessions and progress, while staff can manage sessions and access patient records and analytics.
-Real-time therapy tracking Users can track therapy sessions in real-time with visualization tools like graphs and progress bars.
-Integrated chatbot A chatbot provides answers to queries related to therapy, booking, and guidelines. Structure
-Homepage Users can access general information about the Panchakarma services and navigate to different sections of the app.
-Patient Dashboard Patients can view their scheduled sessions, track progress, and provide feedback, along with accessing center information.
-Staff Dashboard Staff can manage therapy sessions, view patient records, and analyze session data through various analytics tools.
-Scheduling Screen Patients can book or modify their therapy sessions, and staff can view and manage the calendar of sessions.
-Notifications Screen Users can view their pre/post-procedure notifications and manage their notification preferences.
-Chatbot Interface Users can interact with the chatbot for assistance with therapy, bookings, and general queries.
-Here’s a blueprint for your Panchakarma Management Software website:
-
-Modern, healthcare-trusted UI using React and TailwindCSS, mobile-friendly and easy to navigate.
-Supabase backend with secure Auth, Row-Level Security, eKYC, consent system, and audit trails for privacy and compliance.
-Automated therapy scheduling: patients can book/modify sessions, staff manage all sessions in a calendar view, with conflict prevention.
-Pre- and post-procedure notifications via in-app, email, SMS/WhatsApp (MSG91/FCM integration).
-Role-based dashboards:
-Patients: view upcoming/past therapies, track progress with graphs, submit feedback, access center info/guidelines.
-Staff: manage all sessions, view patient records, analytics, and feedback trends.
-Real-time therapy tracking and visualization tools (progress bars, graphs).
-Integrated feedback loop after each session to refine care and alert staff if needed.
-Chatbot (Dialogflow/OpenAI or FAQ-based) for general queries about therapies, booking, guidelines, and support.
-Optional: low-bandwidth video consult, PDF export of reports, multi-center support.
-Language support: English and Hindi/local languages.
